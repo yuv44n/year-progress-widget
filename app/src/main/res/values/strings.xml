@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProgressBar</string>
+    <string name="year_title_desc">Year progress widget title</string>
+    <!-- add other strings here -->
+</resources>

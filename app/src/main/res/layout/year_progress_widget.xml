@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="20dp">
+
+    <ImageView
+    android:id="@+id/title_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:contentDescription="@string/year_title_desc" />
+
+    <ProgressBar
+        android:id="@+id/year_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/dotted_background"
+        android:progressDrawable="@drawable/custom_progress_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/percentage_done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0% DONE"
+            android:textColor="#34C759"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/days_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="365 DAYS LEFT"
+            android:textColor="#34C759"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+</LinearLayout>
