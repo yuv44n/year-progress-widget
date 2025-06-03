@@ -74,12 +74,8 @@ cd nothing-year-progress-widget
 
 ---
 
-### ▶️ Run the App
+### 🧑‍💻 Make Code Changes
 
-1. Connect a physical Android device via USB or launch an emulator.
-2. Click the **Run ▶️** button in Android Studio  
-   — or install the app manually by running:
+---
 
-```bash
-./gradlew installDebug
-```
+Made with <3 by uv
