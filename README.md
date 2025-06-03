@@ -28,6 +28,15 @@ This widget follows the **Nothing Design Language**:
 - 🧊 Rounded edges, grid-aligned layout
 
 ---
+## 📦 Install APK Directly
+
+Don't want to build the project? Just download and install the prebuilt APK:
+
+👉 [Download app-release.apk](https://github.com/yuv44n/year-progress-widget/raw/main/app/release/app-release.apk)
+
+> Make sure to allow "Install from unknown sources" in your device settings if prompted.
+
+---
 
 ## 🛠️ Installation & Contribution Guide
 
